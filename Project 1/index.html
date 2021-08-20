@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIGSTEEL ENGINEERING</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url(img/2.jpg);
+            color: white;
+            text-decoration: none;
+            font-family: 'Baloo Bhai 2', cursive;
+            
+
+
+        }
+
+        .header {
+            /* border: solid red 3px; */
+              display: block;  
+              margin: auto;
+        }
+
+        .left {
+            /* border: turquoise solid 3px; */
+            display: inline-block;
+            position: absolute;
+            left: 22px;
+            top: 12px;
+
+
+        }
+
+        .mid {
+            /* border: springgreen solid 3px; */
+            display: block;
+            width: 50%;
+            margin: 12px auto;
+            float: none;
+
+        }
+
+        .right {
+            /* border: tomato solid 3px; */
+            display: inline-block;
+            position: absolute;
+            right: 22px;
+            top: 19px;
+            padding: 4px;
+            margin-right: 8px;
+            /* border: rgb(255, 52, 52) solid 3px; */
+            border-radius: 15px;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 30px;
+            font-size: 20px;
+
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            color: turquoise;
+            text-decoration: underline;
+        }
+
+        .left img {
+            width: 200px;
+            height: 33px;
+        }
+
+        .left div {
+            font-size: 19px;
+            line-height: 4px;
+            text-decoration: none;
+        }
+
+        .left div abbr {
+            text-decoration: none;
+        }
+
+        nav {
+            background-color: rgb(167, 8, 8);
+
+        }
+
+        #search {
+            padding: 4px;
+            margin-right: 8px;
+            /* border: rgb(255, 52, 52) solid 3px; */
+            border-radius: 15px;
+            color: black;
+            font-family: 'Baloo Bhai 2', cursive;
+            ;
+        }
+
+        .right :hover {
+            background-color: teal;
+        }
+
+        .container {
+            border: white solid 3px;
+            margin: 100px auto;
+            width: 36%;
+            border-radius: 10px;
+            padding: 25px;
+        }
+        .btn{
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            padding: 5px;
+            font-family: 'Baloo Bhai 2', cursive;
+            width: 60px;
+            margin-left: 65px;
+        }
+        .formgroup input{
+            text-align: center;
+            border: black solid 3px;
+            padding: 5px;
+            margin: 2px 60px;
+            width: 340px;
+            font-size: 20px;
+            border-radius: 20px;
+            font-family: 'Baloo Bhai 2', cursive;
+
+        }
+        h1{
+            padding: 3px;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+
+
+        <div class="left">
+            <img src="img/3.png" alt="">
+            <div><abbr title="Bigsteel ENGINEERING Services"> BIGSTEEL ENGINEERING</abbr></div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <input type="text" name="search" id="search" placeholder="Search this website">
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Join BIGSTEEL ENGINEERING</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Father Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Email">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Phone Number">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
